@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func simpleMain() {
 	csvFileName := flag.String("csv", "problems.csv", "a csv file in format 'question,answer'")
 	flag.Parse()
 
